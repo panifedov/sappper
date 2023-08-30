@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sappper:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/sappper_jar2</output-path>
+    <root id="archive" name="sappper.jar">
+      <element id="module-output" name="sappper" />
+    </root>
+  </artifact>
+</component>
