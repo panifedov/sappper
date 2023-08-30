@@ -2,6 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import sweeper.Box;
 import sweeper.Coord;
+import sweeper.Game;
 import sweeper.Ranges;
 
 public class MainSapper extends JFrame
@@ -18,7 +19,8 @@ public class MainSapper extends JFrame
 
     private MainSapper ()
     {
-        Ranges.setSize(new Coord(COLS, ROWS));
+        game = new Game(COLS, ROWS);
+        game.start();
         setImages();
         initPanel();
         initFrame();
